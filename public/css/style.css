@@ -1,0 +1,23 @@
+#signupHeader {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Rasa', serif;
+}
+
+#gotTitle {
+    margin-top: 30px;
+    width: 380px;
+    height: 60px;
+}
+
+.form-group,
+#signupBtn,
+#signinBtn,
+#userBtn,
+#signupP,
+#userInputHeader,
+#characterResult,
+#characterDiv,
+#playAgainBtn {
+    font-family: 'Rasa', serif;
+}

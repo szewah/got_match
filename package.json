@@ -1,0 +1,26 @@
+{
+    "name": "gameofthrones",
+    "version": "1.0.0",
+    "description": "full stack app",
+    "main": "server.js",
+    "scripts": {
+        "test": "node server",
+        "start": "node server.js"
+    },
+    "keywords": [
+        "web",
+        "app"
+    ],
+    "author": "szewah",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt-nodejs": "0.0.3",
+        "express": "^4.16.4",
+        "express-handlebars": "^3.0.2",
+        "express-session": "^1.16.1",
+        "mysql2": "^1.6.5",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0",
+        "sequelize": "^5.8.1"
+    }
+}

@@ -1,0 +1,39 @@
+
+<div class="container">
+
+    <img id="gotTitle" class="mx-auto d-block" src="/Image/clipArt/game-of-thrones-clipart-3.png" alt="">
+
+    <h3 id="signupHeader">Character Match</h3>
+    <br>
+    <br>
+    <form action="/signup" method="POST">
+
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" aria-describedby="userName">
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="lastName" aria-describedby="userLastName">
+        </div>
+
+        <div class="form-group">
+            <label for="userEmail">Email</label>
+            <input type="email" class="form-control" id="userEmail" name="userEmail" aria-describedby="user-email">
+        </div>
+
+        <div class="form-group">
+            <label for="userPassword">Password</label>
+            <input type="password" class="form-control" id="userPassword" name="userPassword" aria-describedby="user-password">
+        </div>
+
+        <button type="submit" id="signupBtn" class="btn btn-warning">Submit</button>
+
+    </form>
+    <br>
+    <br>
+    <p id="signupP">Have an account already? <a href="/login">Login</a></p>
+    
+    
+</div>

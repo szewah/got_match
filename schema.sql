@@ -1,0 +1,4 @@
+DROP DATABASE IF EXISTS got_db;
+
+CREATE DATABASE got_db;
+
