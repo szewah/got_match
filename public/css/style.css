@@ -18,6 +18,7 @@
 #userInputHeader,
 #characterResult,
 #characterDiv,
-#playAgainBtn {
+#playAgainBtn,
+#logoutBtn {
     font-family: 'Rasa', serif;
 }
