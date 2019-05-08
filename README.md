@@ -5,7 +5,7 @@ A basic fullstack app that matches users height, hair and eye color to a charact
 ## Built with
 
 - Javascript, HTML, CSS, Handlebars, Bootstrap, MySQL, Node, Express, Sequelize, Passport
-- Heroku app link: 
+- Heroku app link: https://tranquil-shelf-91663.herokuapp.com/
 
 ## Acknowledgements
 Thanks to the instructors and teaching assistants at Columbia Univeristy Coding Bootcamp.
