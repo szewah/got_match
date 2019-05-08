@@ -10,7 +10,7 @@ module.exports = function(app) {
     });
 
     //add a new user to the database;
-    app.post("/signup/api", async(req, res) => {
+    app.post("/signup", async(req, res) => {
 
         db.User.create({
             firstName: req.body.name,
