@@ -10,6 +10,11 @@
     height: 60px;
 }
 
+#welcomePage,
+#charResults {
+    margin-top: 30px;
+}
+
 .form-group,
 #welcomePage,
 #signupBtn,
