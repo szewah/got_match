@@ -29,7 +29,7 @@ require("./routes/home-route")(app);
 require("./routes/login-route")(app);
 require("./routes/signup-route")(app);
 
-db.sequelize.sync({ force: true }).then(function() {
+db.sequelize.sync({ force: false }).then(function() {
     app.listen(PORT, function(err) {
         console.log("Magic is happening on http://localhost:" + PORT);
     });
